@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ign-in-Coffe Shop</title>
+    <link rel="stylesheet" href="coffe-shop.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+</head>
+<body>
+    <div class="wraper">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <p>Coffe-shop</p>
+                </div>
+    
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="http://127.0.0.1:5500/coffe-shop.html">Home</a></li>
+                            <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+    
+                        <div class="more">
+                            <a href=""><i class="fi fi-rs-user"></i></a>
+                            <a href=""><i class="fi fi-rs-shopping-cart"></i></a>
+                        </div>
+                    </nav>
+            </div>
+        </header>
+
+        <section class="form-container">
+
+            <div class="form-img">
+                <div class="img1">
+                    <img src="coffe.png" alt="coffe-img">
+                </div>
+
+                <div class="img2">
+                    <img src="croissant.png" alt="coffe-img">
+                </div>
+
+                <div class="img3">
+                    <img src="coffe 1.png" alt="coffe-img">
+                </div>
+            </div>
+
+            <div class="form">
+                <h1>Sign-in <span><a href="#">or login</a></span></h1>
+                <form action="" method="get">
+                    <div class="name-lastname">
+                        <p>
+                            <label for="name">Name</label> <br>
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </p>
+    
+                        <p>
+                            <label for="lastname">Lastname</label> <br>
+                            <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname">
+                        </p>
+                    </div>
+
+                    <div class="adress-tel">
+                        <p>
+                            <label for="address">Address</label> <br>
+                            <input type="text" name="address" id="address" placeholder="Enter your address">
+                        </p>
+    
+                        <p>
+                            <label for="phone">Phone</label> <br>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone" pattern="[0-9]{10}">
+                        </p>
+                    </div>
+
+                    <div class="emeil-psd">
+                        
+                        <p>
+                            <label for="username">Username</label> <br>
+                            <input type="text" name="username" id="username" placeholder="Enter your username">
+                        </p>
+                        
+                        <p>
+                            <label for="email">Email</label> <br>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </p>
+                    </div>
+
+                    <div class="confirm-psd">
+                        
+                        <p>
+                            <label for="password">Password</label> <br>
+                            <input type="password" name="password" id="password" placeholder="Enter your password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+                        </p>
+
+                        <p>
+                            <label for="password">Confirm Password</label> <br>
+                            <input type="password" name="password" id="password" placeholder="Confirm your password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+                        </p>
+                    </div>
+                    <input type="submit" name="sub" id="sub" value="Sign-in">
+                    <input type="reset" name="sub" id="sub" value="reset">
+
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Products</li>
+                    <li>About us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h3>Social Links</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
+            
+            <div class="footer-contaier">
+                <div class="contact-infos">
+                    <h3>Contact</h3>
+                    <p><span class="email">Email :</span>adamelmekadem3@gmail.com</p>
+                    <p><span class="phone">Phone :</span>+212 6 18 98 10 78</p>
+                </div>
+    
+                <div class="location">
+                    <h3>Location</h3>
+                    <p>Rue de la liberté, Rabat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Coffee Shop &copy; 2024</p>
+            <p>Brand Name &reg;</p>
+        </div>
+    </footer>
+</body>
+</html>
